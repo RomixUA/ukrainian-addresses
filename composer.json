@@ -1,0 +1,25 @@
+{
+  "name": "romix/ukrainian-addresses",
+  "description": "Provided Ukrainian addresses.",
+  "keywords": [
+    "ukrainian",
+    "address"
+  ],
+  "type": "library",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Romix",
+      "email": "romixua@ukr.net",
+      "homepage": "http://github.com/romixua"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Romix\\UkrainianAddresses\\": "src"
+    }
+  }
+}
